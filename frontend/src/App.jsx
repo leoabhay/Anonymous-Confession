@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import SubmitConfession from './components/SubmitConfession';
-import PublicFeed from './components/PublicFeed';
-import AdminDashboard from './components/AdminDashboard';
-import Footer from './components/Footer';
-import CommunityGuidelines from './components/CommunityGuidelines';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import SubmitConfession from "./components/SubmitConfession";
+import PublicFeed from "./components/PublicFeed";
+import AdminDashboard from "./components/AdminDashboard";
+import Footer from "./components/Footer";
+import CommunityGuidelines from "./components/CommunityGuidelines";
+import "./App.css";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <div className="nav-links">
               <Link to="/">Feed</Link>
               <Link to="/submit">Submit Confessions</Link>
-              {/* <Link to="/admin">Admin</Link> */}
+              <Link to="/admin">Admin</Link>
               <Link to="/guidelines">Guidelines</Link>
             </div>
           </div>
